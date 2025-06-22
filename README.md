@@ -120,10 +120,9 @@ make       # or manually: g++ main.cpp exchange.cpp -o main
 
 * `main.cpp` – Entry point (reads input, invokes Exchange logic)
 * `exchange.cpp/.h` – Contains the `Exchange` class implementation
-* `Order` structure – Defines attributes like ID, type, quantity, price, and timestamp
+* `order.cpp/.h` structure – Defines attributes like ID, type, quantity, price, and timestamp
 * `makefile` – Automates compilation
-* `input#.txt` – Sample input files
-* `output#.txt` – Generated result files
+* `inputs_and_outputs_for_testing` – Sample input files and their expected output
 
 ---
 
